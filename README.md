@@ -20,7 +20,7 @@ positional arguments:
 optional arguments:
   -h, --help  show this help message and exit
 
-```console
+```
 
 * add
 ```console
@@ -39,7 +39,7 @@ optional arguments:
     xgwang@linux-qlxp:/home/root/mml> ./MMLCLI add -n src5 -g group1
     [INFO ]: Successfully add resource[src5], id:10
 
-```console
+```
 
 
 * update
@@ -59,7 +59,7 @@ optional arguments:
 * Example:
 xgwang@linux-qlxp:/home/root/mml> ./MMLCLI update -n src5 -r src5_new -g group2
 [INFO ]: Successfully update resource
-```console
+```
 
 
 * delete
@@ -79,7 +79,7 @@ optional arguments:
 * Example: 
 xgwang@linux-qlxp:/home/root/mml> ./MMLCLI delete -n src5_new
 Successfully delete resource [src5_new]
-```console
+```
 
 
 * reserve
@@ -98,7 +98,7 @@ optional arguments:
 xgwang@linux-qlxp:/home/root/mml> ./MMLCLI reserve -n src3 -d 4h
 [INFO ]: Successfully update resource
 
-```console
+```
 
 * release
 ```console
@@ -115,4 +115,4 @@ optional arguments:
 * Example:
 xgwang@linux-qlxp:/home/root/mml> ./MMLCLI release -n src3
 [INFO ]: Successfully update resource
-```console
+```
