@@ -2,7 +2,8 @@
 Resource management tool
 
 [HELP]
-linux-qlxp:/home/root/mml # ./MMLCLI -h
+
+linux-qlxp:/home/root/mml # ./MMLCLI -h\n
 usage: MMLCLI <command> [<args>]
     add     Add resource to MML
     update  Update resource data
