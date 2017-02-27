@@ -105,7 +105,7 @@ class ParameterParser(object):
 
 
 class RequestOPT(object):
-    def __init__(self, site='localhost', port=8080):
+    def __init__(self, site='147.2.212.220', port=8080):
         self.site = site
         self.port = port
         self.con = http.client.HTTPConnection(self.site, self.port)
