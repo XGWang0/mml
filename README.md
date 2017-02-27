@@ -1,9 +1,10 @@
-# mml
-Resource management tool
+# What is mml ?
+Machines(Resource) management tool is used to manage or maintain machine resource.
 
-[HELP]
-
-linux-qlxp:/home/root/mml # ./MMLCLI -h\n
+#USAGE
+*[HELP]
+```console
+linux-qlxp:/home/root/mml # ./MMLCLI -h
 usage: MMLCLI <command> [<args>]
     add     Add resource to MML
     update  Update resource data
@@ -19,3 +20,4 @@ positional arguments:
 optional arguments:
   -h, --help  show this help message and exit
 
+```console
